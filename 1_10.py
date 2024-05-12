@@ -2,11 +2,8 @@ import json
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-
 def f(x):
-
     return (np.sin(3*np.pi*x))*(np.sin(3*np.pi*x))*(np.sin(3*np.pi*x))+((x-1)**2)*(1+(np.sin(3*np.pi))*(np.sin(3*np.pi)))
-
 #параметры
 x_values = np.linspace(-10, 10, 1000)
 #расчёт координат
